@@ -34,7 +34,7 @@ export function Header() {
 
 export function MainContent() {
   return (
-    <main>
+    <section className="main-content">
       <div className="company-detail-left">
         <h1>Welcome to XYZ Corp</h1>
         <p>Your Trusted Partner in Excellence</p>
@@ -61,7 +61,7 @@ export function MainContent() {
         </p>
         <Button buttonText="Learn More" buttonStyle="learn-button" />
       </div>
-    </main>
+    </section>
   );
 }
 
