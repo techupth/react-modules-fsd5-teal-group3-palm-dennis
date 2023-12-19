@@ -114,8 +114,8 @@ export function Footer() {
 
 export function FAQ() {
   return (
-    <>
-      <h1 id="faq">FAQ (คำถามที่พบบ่อย)</h1>
+    <div id="faq">
+      <h1>FAQ (คำถามที่พบบ่อย)</h1>
       <Accordion defaultIndex={[0]} allowMultiple>
         <AccordionItem>
           <h2>
@@ -212,6 +212,6 @@ export function FAQ() {
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
-    </>
+    </div>
   );
 }
